@@ -1,0 +1,136 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{
+	width:100%;
+	height:30%;
+	background:#48dbfb;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 100% Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+	position: absolute;
+	top: 0;
+}
+
+/* --- icon --- */
+.icon {
+	margin-bottom: 30px;
+	border-radius: 50%;
+	border: 4px solid #ccc;
+	width: 220px;
+	height: 220px;
+}
+@media screen and ( max-width:479px )
+{
+	.icon {
+		width: 170px;
+		height: 170px;
+	}
+}
+
+/* --- profile --- */
+.profile {
+	max-width: 250px;
+	padding-top: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.profile-text {
+	display: inline-block;
+	text-align: left;
+	font-size: 21px;
+}
+
+.profile-text-title1 {
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.profile-text-title2 {
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.profile-sns-icon {
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+}
+
+/* --- product --- */
+.product {
+	background-color: rgb(16, 16, 17);
+	text-align: center;
+	padding-top: 50px;
+}
+
+.product-text-title1 {
+	font-size: 28px;
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+}
+
+.product-text-title2 {
+	font-size: 22px;
+	text-align: left;
+	display: inline-block;
+	font-weight: bolder;
+	vertical-align: top;
+	color: rgb(255, 255, 255);
+}
+
+.myapp-icon {
+	border-radius: 10%;
+	height: 200px;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #48dbfb;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
